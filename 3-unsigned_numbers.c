@@ -41,7 +41,7 @@
 	unsigned long int number = va_arg(types, unsigned long int);
 	unsigned long int initial = number;
 
-	NOT_USED(width);
+	UNUSED(width);
 
 	number = convert_size_unsigned(number, size);
 
@@ -97,7 +97,7 @@ int flags, char flag_ch, int width, int precision, int size)
 	unsigned long int number = va_arg(types, unsigned long int);
 	unsigned long int initial = number;
 
-	NOT_USED(width);
+	UNUSED(width);
 
 	number = convert_size_unsigned(number, size);
 

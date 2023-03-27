@@ -1,9 +1,5 @@
 /***** DEFINITIONS AND INCLUSIONS *****/
-
-
-
 /***** Main.h *****/
-
 #ifndef MAIN_H
 #define MAIN_H
 
@@ -19,7 +15,7 @@
 
 /***** Buffers *****/
 
-#define NOT_USED(x) (void)(x)
+#define UNUSED(x) (void)(x)
 #define BUFF_SIZE 1024
 
 
